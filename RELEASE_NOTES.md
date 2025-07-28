@@ -1,4 +1,6 @@
-### 0.0.0 (Released 2025-4-7)
-* Additions:
-    * Initial set up for RELEASE_Notes.md
+### 1.0.0 - TBD
 
+Re-release of the deprecated BioFSharp.Vis package. This package will target netstandard and not use any netfx dependencies anymore
+
+Plots included in this version:
+- SequenceLogo (Plotly.NET extension)
