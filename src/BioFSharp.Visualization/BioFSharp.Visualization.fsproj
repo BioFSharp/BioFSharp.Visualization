@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="SVG.fs" />
+    <Compile Include="Logo.fs" />
+    <None Include="..\..\docs\img\icon.png" Pack="true" PackagePath="" />
+    <Compile Include="PlotlyExtensions\StyleParam.fs" />
+    <Compile Include="PlotlyExtensions\Utils.fs" />
+    <Compile Include="PlotlyExtensions\ChartExtensions.fs" />
+    <None Include="playground.fsx" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Authors></Authors>
+    <Description></Description>
+    <Summary>
+      
+    </Summary>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://BioFSharp.github.io/BioFSharp.Visualization/</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>bioinformatics F# fsharp statistic biostatistics datascience</PackageTags>
+    <RepositoryUrl>https://github.com/BioFSharp/BioFSharp.Visualization</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <FsDocsLicenseLink>https://github.com/BioFSharp/BioFSharp.Visualization/blob/main/LICENSE</FsDocsLicenseLink>
+    <FsDocsReleaseNotesLink>https://github.com/BioFSharp/BioFSharp.Visualization/blob/main/RELEASE_NOTES.md</FsDocsReleaseNotesLink>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="BioFSharp" Version="2.0.0-preview.3" />
+    <PackageReference Include="Plotly.NET" Version="6.0.0-preview.1" />
+  </ItemGroup>
+
+</Project>

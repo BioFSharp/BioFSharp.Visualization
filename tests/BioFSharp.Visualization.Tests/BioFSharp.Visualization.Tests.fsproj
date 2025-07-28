@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BioFSharp.XYZ\BioFSharp.XYZ.fsproj" />
+    <ProjectReference Include="..\..\src\BioFSharp.Visualization\BioFSharp.Visualization.fsproj" />
   </ItemGroup>
 
 </Project>
